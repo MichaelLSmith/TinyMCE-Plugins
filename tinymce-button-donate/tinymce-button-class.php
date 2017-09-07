@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: TinyMCE Button Class
- * Version: 1.0
+ * Version: 1.1
  * Author: WPBeginner
  * Author URI: http://www.wpbeginner.com
  * Description: A simple TinyMCE Plugin to add a custom link class in the Visual Editor
