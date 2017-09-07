@@ -46,7 +46,7 @@
     */
     function add_tinymce_plugin( $plugin_array ) {
 
-    $plugin_array['button_class'] = plugin_dir_url( __FILE__ ) . 'tinymce-button-class.js';
+    $plugin_array['button_class'] = plugin_dir_url( __FILE__ ) . 'tinymce-button.js';
     return $plugin_array;
 
     }
