@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name: TinyMCE Donate Button
- * Version: 1.1.1
- * Author: WPBeginner
- * Author URI: http://www.wpbeginner.com
+ * Version: 1.1.3
+ * Author: Michael L Smith
+ * Author URI:
  * Description: A simple TinyMCE Plugin to add a custom link class in the Visual Editor
  * License: GPL2
  */
@@ -46,7 +46,7 @@
     */
     function add_tinymce_plugin( $plugin_array ) {
 
-    $plugin_array['button_class'] = plugin_dir_url( __FILE__ ) . 'tinymce-button.js';
+    $plugin_array['button_class'] = plugin_dir_url( __FILE__ ) . 'tinymce-button-donate.js';
     return $plugin_array;
 
     }
