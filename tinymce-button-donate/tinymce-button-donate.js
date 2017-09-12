@@ -12,7 +12,7 @@
 
   function handleSubmit(e) {
     console.log(e);
-    select = e.data.destination;
+    var select = e.data.destination;
     if(!select) {
       alert('please select a destination');
     }

@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: TinyMCE Donate Button
- * Version: 1.1.4
+ * Version: 1.2
  * Author: Michael L Smith
  * Author URI:
  * Description: A simple TinyMCE Plugin to add a custom link class in the Visual Editor
@@ -46,7 +46,7 @@
     */
     function add_tinymce_plugin( $plugin_array ) {
 
-    $plugin_array['button_class'] = plugin_dir_url( __FILE__ ) . 'tinymce-button-donate.js';
+    $plugin_array['button_class'] = plugin_dir_url( __FILE__ ) . 'index.js';
     return $plugin_array;
 
     }
