@@ -19,7 +19,11 @@ function handleSubmit(e) {
   else if(select === 1) {
     //internal donate url
     tinymce.activeEditor.execCommand('mceInsertContent', false,
-    `<a href="${wpURL}/donate"><button type="button" class="btn-purple">Donate</button></a>`
+    `<h3 class="donate-text">
+        Please help us build the first Long Term Residential Recovery-Based Treatment Centre for Youth in Canada by donating today!
+      </h3>
+      <a href="${wpURL}/donate"><button type="button" class="btn-purple">Donate Now</button></a>
+      `
     );
   }
   else if(select = 2) {
